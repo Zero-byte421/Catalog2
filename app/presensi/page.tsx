@@ -1,11 +1,11 @@
 "use client"
 
-import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
-import { ApplicationList } from "@/components/application-list"
-import { ApplicationPreview } from "@/components/application-preview"
-import { Dashboard } from "@/components/dashboard"
-import { Footer } from "@/components/footer"
+import Header from "@/components/header"
+import Hero from "@/components/hero"
+import ApplicationList from "@/components/application-list"
+import ApplicationPreview from "@/components/application-preview"
+import Dashboard from "@/components/dashboard"
+import Footer from "@/components/footer"
 
 export default function PresensiPage() {
   const accentColor = "#9C27B0" // Purple accent
