@@ -9,7 +9,8 @@ interface HeaderProps {
   primaryColor?: string
 }
 
-export default function Header({ appName = "TelkomInfra", primaryColor = "#8B1538" }: HeaderProps) {
+// UBAH dari default export ke named export
+export function Header({ appName = "TelkomInfra", primaryColor = "#8B1538" }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
