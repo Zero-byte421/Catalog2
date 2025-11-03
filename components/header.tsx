@@ -1,4 +1,4 @@
-"use client"
+y"use client"
 
 import { useState } from "react"
 import Link from "next/link"
@@ -10,7 +10,7 @@ interface HeaderProps {
 }
 
 // UBAH dari default export ke named export
-export function Header({ appName = "TelkomInfra", primaryColor = "#8B1538" }: HeaderProps) {
+export default function Header({ appName = "TelkomInfra", primaryColor = "#8B1538" }: HeaderProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
